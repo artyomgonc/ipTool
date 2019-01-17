@@ -34,7 +34,7 @@ After programm installation you can run it from ```/home``` directory by command
 aboutip [ip or domain]
 ```
 
-If this command gives you an error, use old one:
+If this command gives you an error, download [fix_command file](https://github.com/artgonatiacool/ipTool/releases/download/1.0/fix_command.sh) to your ```/home``` repository.
 
 ```sh
 perl ip.pl [ip or domain]
