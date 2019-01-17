@@ -1,6 +1,8 @@
 # ipTool
 This tool let you know full information about any IP address or domain in Linux Terminal
 
+## Installation
+
 Now open Terminal.
 To install application download it and extract to your ```/home``` directory.
 
