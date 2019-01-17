@@ -1,10 +1,8 @@
-
 use Socket;
 use Term::ANSIColor;
 use WWW::Mechanize;
 use JSON;
   
- 
 print color 'bold bright_green';
  
 print q{
@@ -18,6 +16,7 @@ print q{
 };
  
 print color 'reset';
+
 @iphost=$ARGV[0];
 my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "!IP or Host invalid or you did not input it!\n\n\n");
 my @hn = scalar gethostbyaddr(inet_aton(@ip),AF_INET);
@@ -25,7 +24,6 @@ my @hn = scalar gethostbyaddr(inet_aton(@ip),AF_INET);
 my $GET=WWW::Mechanize->new();
     $GET->get("http://ip-api.com/json/@ip");
     my $json = $GET->content();
- 
  
 my $info = decode_json($json);
 
@@ -47,4 +45,5 @@ print "  [+] Timezone: ", $info->{'timezone'}, "\n";
 print "\n";
 print "\n";
 print "\n";
+
 print color 'reset';
