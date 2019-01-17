@@ -34,13 +34,22 @@ After programm installation you can run it from ```/home``` directory by command
 aboutip [ip or domain]
 ```
 
+And do not delete ```ip.pl``` file from ```/home``` directory.
+
+### Fixing command
+
 If this command gives you an error, download [fix_command file](https://github.com/artgonatiacool/ipTool/releases/download/1.0/fix_command.sh) to your ```/home``` repository.
+
+Now run without ```sudo```!
+
+```sh
+bash fix_command.sh
+```
+Now it shall work. If not working even now, use old command:
 
 ```sh
 perl ip.pl [ip or domain]
 ```
-
-And do not delete ```ip.pl``` file from ```/home``` directory.
 
 ## Example
 
