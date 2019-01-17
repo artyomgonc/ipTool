@@ -8,7 +8,7 @@ To install application download it and extract to your /home directory or clone 
 git clone https://github.com/artgonatiacool/ipTool
 ```
 
-Now go to downloaded directory (ipTool-master or ipTool by default) via command
+Now go to downloaded directory (```shipTool-master``` or ```shipTool``` by default) via command
 
 ```sh
 cd YOURDIRECTORY
