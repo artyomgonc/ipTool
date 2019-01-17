@@ -1,5 +1,7 @@
 # ipTool
-This tool let you know full information about any IP address or domain in Linux Terminal
+This tool let you know full information about any IP address or domain in Linux Terminal.
+
+Also works with Chrome OS Linux (Beta) and Mac OS.
 
 ## Installation
 
@@ -30,6 +32,12 @@ After programm installation you can run it from ```/home``` directory by command
 
 ```sh
 aboutip [ip or domain]
+```
+
+If this command gives you an error, use old one:
+
+```sh
+perl ip.pl [ip or domain]
 ```
 
 And do not delete ```ip.pl``` file from ```/home``` directory.
