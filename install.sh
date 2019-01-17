@@ -1,5 +1,4 @@
 ﻿#!/bin/bash
-#to start input "bash install.sh"
 clear
 sudo echo starting...
 cp ip.pl ../ip.pl
@@ -19,4 +18,3 @@ echo
 echo 
 rm -r ./ipTool
 exec bash
-
