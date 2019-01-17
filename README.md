@@ -51,7 +51,7 @@ Now it shall work. If not working even now, use old command:
 perl ip.pl [ip or domain]
 ```
 
-## Example
+## Example of working app
 
 ```sh
 aboutip github.com
