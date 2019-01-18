@@ -15,6 +15,9 @@ my $info = decode_json($json);
 
 print color 'bold yellow';
 
+print "\n";
+print "\n";
+print "\n";
 print "        IP: ", $info->{'query'}, "\n";
 print "------------------------------------\n"; 
 print color 'bold bright_green';
