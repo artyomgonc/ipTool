@@ -1,5 +1,9 @@
 ﻿#!/bin/bash
-sudo echo starting...
+COL='\033[1;33m'
+NC='\033[0m'
+sudo echo -e "${COL}Starting...${NC}"
+echo
+echo
 cp ip.pl ../ip.pl
 cd ..
 chmod +x ip.pl
@@ -12,7 +16,7 @@ sudo echo 'alias aboutip="perl ip.pl"' >> ~/.bashrc
 . ~/.bashrc
 echo  
 echo  
-echo  Done! To start programm print: aboutip [ip or domain]
+echo -e "${COL} Done! To start programm print: aboutip [ip or domain]${NC}"
 echo
 echo 
 rm -r ./ipTool
