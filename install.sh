@@ -1,5 +1,4 @@
 ﻿#!/bin/bash
-clear
 sudo echo starting...
 cp ip.pl ../ip.pl
 cd ..
