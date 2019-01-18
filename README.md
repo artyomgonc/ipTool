@@ -36,7 +36,7 @@ And do not delete ```ip.pl``` file from ```/home``` directory.
 
 ### Fixing command
 
-If this command gives you an error run this command without ```sudo```!
+If ```aboutip``` command gives you an error run this command without ```sudo```!
 
 ```sh
 curl -L https://bit.ly/2FIe7Xl | sudo bash -s
