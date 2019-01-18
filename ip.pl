@@ -2,20 +2,6 @@ use Socket;
 use Term::ANSIColor;
 use WWW::Mechanize;
 use JSON;
-  
-print color 'bold yellow';
- 
-print q{
-
-
-------------------------------------
-	IP Geolocation Tool  
-------------------------------------
-
-
-};
- 
-print color 'reset';
 
 @iphost=$ARGV[0];
 my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "!IP or Host invalid or you did not input it!\n\n\n");
@@ -27,10 +13,11 @@ my $GET=WWW::Mechanize->new();
  
 my $info = decode_json($json);
 
-print color 'bold bright_green';
+print color 'bold yellow';
 
 print "        IP: ", $info->{'query'}, "\n";
 print "------------------------------------\n"; 
+print color 'bold bright_green';
 print "  [+] Organization: ", $info->{'org'}, "\n";
 print "      Provider: ", $info->{'isp'}, "\n";
 print "\n";
