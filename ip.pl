@@ -4,7 +4,7 @@ use WWW::Mechanize;
 use JSON;
 
 @iphost=$ARGV[0];
-my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "!IP or Host invalid or you did not input it!\n\n\n");
+my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "\n\n\n  Error! IP or Host invalid or you did not input it\n\n\n");
 my @hn = scalar gethostbyaddr(inet_aton(@ip),AF_INET);
  
 my $GET=WWW::Mechanize->new();
