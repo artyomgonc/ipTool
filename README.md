@@ -39,7 +39,7 @@ And do not delete ```ip.pl``` file from ```/home``` directory.
 If ```aboutip``` command gives you an error run this command without ```sudo```!
 
 ```sh
-curl -L https://bit.ly/2FIe7Xl | sudo bash -s
+curl -L https://bit.ly/2FIe7Xl | bash -s
 ```
 
 Now it shall work. If not working even now, use old command:
