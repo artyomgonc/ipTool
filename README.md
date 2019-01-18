@@ -55,14 +55,9 @@ aboutip github.com
 ```
 
 ```sh
-------------------------------------
-        IP Geolocation Tool  
-------------------------------------
-
-
         IP: 140.82.118.3
 ------------------------------------
-  [+] Organization: AS36459 GitHub, Inc.
+  [+] Organization: GitHub, Inc.
       Provider: GitHub
 
   [+] Country: United States (US)
@@ -72,6 +67,5 @@ aboutip github.com
   [+] Geolocation: Latitude: 37.7823
                    Longitude: -122.391
 
-  [+] Timezone: America/Los_Angeles
-  
+  [+] Timezone: America/Los_Angeles  
 ```
