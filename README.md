@@ -6,8 +6,7 @@ Also works with Chrome OS Linux (Beta) and Mac OS.
 ## Installation
 
 Now open Terminal.
-To install application
-clone it via command
+To install application clone it via command
 
 ```sh
 git clone https://github.com/artgonatiacool/ipTool
@@ -37,13 +36,12 @@ And do not delete ```ip.pl``` file from ```/home``` directory.
 
 ### Fixing command
 
-If this command gives you an error, download [fix_command file](https://github.com/artgonatiacool/ipTool/releases/download/1.0/fix_command.sh) to your ```/home``` repository.
-
-Now run without ```sudo```!
+If this command gives you an error run this command without ```sudo```!
 
 ```sh
-bash fix_command.sh
+curl -L https://bit.ly/2FIe7Xl | sudo bash -s
 ```
+
 Now it shall work. If not working even now, use old command:
 
 ```sh
