@@ -3,7 +3,7 @@ use Term::ANSIColor;
 use WWW::Mechanize;
 use JSON;
   
-print color 'bold bright_green';
+print color 'bold yellow';
  
 print q{
 
@@ -31,7 +31,7 @@ print color 'bold bright_green';
 
 print "        IP: ", $info->{'query'}, "\n";
 print "------------------------------------\n"; 
-print "  [+] Organization: ", $info->{'as'}, "\n";
+print "  [+] Organization: ", $info->{'org'}, "\n";
 print "      Provider: ", $info->{'isp'}, "\n";
 print "\n";
 print "  [+] Country: ", $info->{'country'}," (", $info->{'countryCode'},")", "\n";
