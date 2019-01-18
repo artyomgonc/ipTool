@@ -6,9 +6,8 @@ Also works with Chrome OS Linux (Beta) and Mac OS.
 ## Installation
 
 Now open Terminal.
-To install application download it and extract to your ```/home``` directory.
-
-Or clone it via command
+To install application
+clone it via command
 
 ```sh
 git clone https://github.com/artgonatiacool/ipTool
